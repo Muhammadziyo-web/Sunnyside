@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'mulish';
+    src: url('Mulish-VariableFont_wght.ttf')
+}
+
+.begining {
+    background-image: url(images/image-header.jpg);
+    padding-top: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.nav :nth-child(4) {
+    color: #000;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 120px;
+    height: 40px;
+    padding: 10px 15px;
+    margin-top: -8px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 700;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+}
+
+.down {
+    margin: 0px auto;
+    display: block;
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+}
+
+.text {
+    /* flex-direction: column; */
+    width: 50%;
+    /* flex-direction: column;
+    justify-content: center; */
+    margin: 0 auto;
+}
+
+.box {
+    width: 50%;
+    display: flex;
+
+    flex-direction: column;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 50%;
+}
+
+.text h1 {
+    width: 300px;
+}
+
+.text p {
+    width: 395px;
+    font-family: 'mulish';
+    opacity: 0.6;
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+.text button {
+    width: 150px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    border: none
+}
+
+
+.part1 {
+    width: 50%;
+    background-image: url(images/image-graphic-design.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+.part2 {
+    width: 50%;
+    background-image: url(images/image-photography.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+
+.card3 {
+    display: flex;
+}
+
+
+.tex {
+text-align: center;
+width: 310px;
+height: 400px;
+/* display: inline-block; */
+flex-direction: column;
+justify-content:center;
+justify-items: center;
+align-content: center;
+margin: 0 auto;
+margin-top: 400px;
+font-family: serif;
+line-height: 20px;
+
+}
+.tex p{
+    margin-top: 20px;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'mulish';
+}
+.client{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+.client img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.client p{
+    line-height: 25px;
+    width: 350px;
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.client h4{
+    opacity: 0.4;
+    font-family: 'mulish';
+    margin-top: 10px;
+}
+.box2{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 1vw;
+}
+.clt{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    opacity: 0.6;
+    margin-top: 30px;
+}
+.image{
+    flex-direction: row;
+    width: 25vw;
+    float: left;
+    margin-left: 0;
+}
+.galery{
+    width: 100%;
+    display: flex;
+    margin-left: -14px;
+    margin-top: 120px;
+}
+.clr{
+    clear: both;
+}
+footer{
+    background-color: #c6caca;
+    width: 100vw;
+    margin-left: -20px;
+}
+.icon1{
+    width: 170px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: mulish;
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+.logos img{
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
